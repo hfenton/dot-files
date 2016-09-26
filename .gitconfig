@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[core]
+# Please adapt and uncomment the following lines:
+	user = Heather Fenton
+	email = hfenton@virtualhold.com
+	editor = /usr/bin/vim
+	autocrlf = false
+	safecrlf = true
+[user]
+	name = Heather Fenton
+	email = hfenton@virtualhold.com
+[push]
+    default = simple
+[alias]
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
