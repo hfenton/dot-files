@@ -9,4 +9,5 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+export PATH="/usr/local/sbin:$PATH"
 
